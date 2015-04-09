@@ -1,3 +1,3 @@
 #!/bin/bash
 
-java -jar uaiMockServer-1.1.2.Standalone.jar
+java -jar uaiMockServer-${MOCK_VERSION}.Standalone.jar
