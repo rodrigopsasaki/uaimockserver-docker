@@ -1,6 +1,6 @@
 FROM debian:wheezy
 
-ENV MOCK_VERSION 1.1.2
+ENV MOCK_VERSION 1.2.5
 
 RUN apt-get update --yes
 RUN apt-get install openjdk-7-jre-headless --yes
