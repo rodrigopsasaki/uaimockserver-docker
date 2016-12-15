@@ -8,7 +8,7 @@ RUN apt-get install wget --yes
 
 RUN mkdir -p /opt/uaimockserver
 WORKDIR /opt/uaimockserver
-RUN wget http://downloads.sourceforge.net/project/uaimockserver/uaiMockServer-$MOCK_VERSION.Standalone.jar
+RUN wget https://github.com/uaihebert/uaiMockServer/raw/master/dist/01_02_05/uaiMockServer-1.2.5.Standalone.jar
 
 RUN apt-get clean --yes
 
